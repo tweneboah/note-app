@@ -11,9 +11,14 @@
 <body>
     <h1>NOTE APP</h1>
     <input type="text" id="search" placeholder="filter todo">
+    <select name="" id="filter-by">
+        <option value="byEdited">Sort by last edited</option>
+        <option value="byCreated">Sort by recently created</option>
+        <option value="alphabetically">Sort alphabetically</option>
+    </select>
     <div id="notes"></div>
 
-    <script src="note.js"></script>
+    <script src="js/note.js"></script>
 </body>
 
 </html>
